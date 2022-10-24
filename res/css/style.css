@@ -1,0 +1,31 @@
+* {
+    user-select: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#mainImage {
+    width: 320px;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+#wrapper {
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuImage {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
